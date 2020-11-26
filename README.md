@@ -25,8 +25,8 @@ Los contratos de entrada y salida se encuentran documentados en el siguiente lin
   
 ## Documentación adicional  
   
-El resto de la documentación puede ser encontrada en ***URL***  
-  
+El resto de la documentación puede ser encontrada en el siguiente enlace [Documentación](https://github.com/testJgSf/calculator-documentation)
+
   
 ### Más información  
 Cualquier información extra contacte a José Gabriel Ortiz.

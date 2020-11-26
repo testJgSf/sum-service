@@ -3,7 +3,7 @@ const { body, validationResult } = require('express-validator');
 let sumRequestValidations = () => {
   return [
       body('factors').isArray({min: 2}).withMessage('Factors should be an array with at least 2 positions'),
-      body('factors.*').isNumeric().withMessage('Factors must contain only numeric values')
+      body('factors.*').toFloat().isNumeric().withMessage('Factors must contain only numeric values')
   ]
 };
 

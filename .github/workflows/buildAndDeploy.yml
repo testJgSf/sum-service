@@ -21,6 +21,9 @@ jobs:
     - run: npm test
 
   deploydev:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
     - name: Deploy to Google App Engine
       uses: atRobertoFlores/gae_deploy_action@master
       with:

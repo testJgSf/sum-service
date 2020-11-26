@@ -1,6 +1,6 @@
 let main = (factors) => {
     factors = factors.reduce((previous, current) => previous+current);
-    factors = roundNumber(factors, decimalsNumber);
+    factors = roundNumber(factors, 5);
     if (factors) {
         return {code:  httpOk, body: {result: factors}};
     } else {

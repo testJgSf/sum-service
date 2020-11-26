@@ -1,8 +1,9 @@
+require('dotenv').config();
 let express = require('express');
 let cookieParser = require('cookie-parser');
 let roundTo = require('round-to');
 global.roundNumber = roundTo;
-global.decimalsNumber = process.env.decimals ? process.env.decimals : 5;
+global.decimalsNumber = process.env.DECIMALS ? process.env.DECIMALS : 5;
 let logger = require('morgan');
 let log4js = require("log4js");
 global.log = log4js.getLogger();

@@ -20,7 +20,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
-
+  deploydev:
     - name: Deploy to Google App Engine
       uses: atRobertoFlores/gae_deploy_action@master
       with:

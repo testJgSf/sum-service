@@ -20,7 +20,7 @@
   
 ## Contratos  
   
-Los contratos de entrada y salida se encuentran documentados en el siguiente link   ***************  
+ - sum  [Servicio de suma OpenApi 3.0](https://app.swaggerhub.com/apis-docs/test_jg_sf/sum-service/1.0.0  )  
   
   
 ## Documentación adicional  
